@@ -1,0 +1,408 @@
+    @font-face {
+        font-family: acti;
+        src: url(fonts/Activists\ Regular.ttf);
+    }
+    
+    @font-face {
+        font-family: pres;
+        src: url(fonts/PrestigeSignatureScript-Demo.ttf);
+    }
+    
+    @font-face {
+        font-family: von;
+        src: url(fonts/Vonique64Italic.ttf);
+    }
+    
+    @font-face {
+        src: url(fonts/Silhouette.otf);
+        font-family: sil;
+    }
+    
+    @font-face {
+        src: url(fonts/Goldoni_DEMO.otf);
+        font-family: gol;
+    }
+    
+    @font-face {
+        src: url(fonts/Cinzel-Regular.ttf);
+        font-family: cinz;
+    }
+    
+    @font-face {
+        src: url(fonts/FoglihtenNo07_0841.otf);
+        font-family: fog;
+    }
+    
+    @font-face {
+        src: url(fonts/MammaGamma.ttf);
+        font-family: mamma;
+    }
+    
+    @font-face {
+        src: url(fonts/Typolino.otf);
+        font-family: typolino;
+    }
+    
+    @font-face {
+        src: url(fonts/Lieselotte-PersonalUse.ttf);
+        font-family: lisel;
+    }
+    
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    
+    .name {
+        font-family: cinz;
+        font-size: 24px;
+        position: absolute;
+        width: 250px;
+        height: 54px;
+        left: 63px;
+        top: 38px
+    }
+    
+    .sub1 {
+        font-family: 'Encode Sans Semi Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color: #7C7B79;
+        position: absolute;
+        width: 148px;
+        height: 54px;
+        left: 110px;
+        top: 82px;
+    }
+    
+    .sub2 {
+        font-family: 'Sans Semi Condensed';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color: #7C7B79;
+        position: absolute;
+        width: 148px;
+        height: 54px;
+        left: 110px;
+        top: 124px
+    }
+    
+    .sub3 {
+        position: absolute;
+        width: 887px;
+        height: 327px;
+        left: 342px;
+        top: 187.5px;
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 80px;
+        color: #000000;
+    }
+    
+    .circle {
+        position: absolute;
+        width: 236px;
+        height: 111.84px;
+        left: 549.5px;
+        top: 213.5px;
+        border: 2.4px solid #FF1C1E;
+    }
+    
+    .aboutpart1 {
+        position: absolute;
+        width: 30px;
+        height: 25px;
+        left: 481px;
+        top: 713px;
+        border: 2px solid #D28F78;
+        box-sizing: border-box;
+    }
+    
+    .aboutpart2 {
+        position: absolute;
+        width: 8px;
+        height: 30px;
+        left: 492px;
+        top: 715px;
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;
+        color: #D28F78;
+    }
+    
+    .about {
+        position: absolute;
+        width: 1030px;
+        height: 245px;
+        left: 534px;
+        top: 649px;
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 128px;
+        line-height: 258px;
+        color: #D28F78;
+    }
+    
+    .contactpart1 {
+        position: absolute;
+        width: 30px;
+        height: 25px;
+        left: 481px;
+        top: 858px;
+        border: 2px solid #D28F78;
+        box-sizing: border-box;
+    }
+    
+    .contactpart2 {
+        position: absolute;
+        width: 8px;
+        height: 30px;
+        left: 492px;
+        top: 858px;
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 30px;
+        color: #D28F78;
+    }
+    
+    .contact {
+        position: absolute;
+        width: 1030px;
+        height: 245px;
+        left: 534px;
+        top: 772px;
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 128px;
+        line-height: 258px;
+        color: #D28F78;
+    }
+    
+    .designpart1 {
+        position: absolute;
+        width: 30px;
+        height: 25px;
+        left: 481px;
+        top: 979px;
+        border: 2px solid #D28F78;
+        box-sizing: border-box;
+    }
+    
+    .designpart2 {
+        position: absolute;
+        width: 6px;
+        height: 30px;
+        left: 493px;
+        top: 979px;
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 400px;
+        font-size: 15px;
+        line-height: 30px;
+        color: #D28F78
+    }
+    
+    .design {
+        position: absolute;
+        width: 1030px;
+        height: 245px;
+        left: 534px;
+        top: 907px;
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 128px;
+        line-height: 258px;
+        color: #D28F78;
+    }
+    
+    .design1 {
+        position: absolute;
+        width: 1030px;
+        height: 245px;
+        left: -30px;
+        top: 883px;
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1000px;
+        line-height: 2012px;
+        color: #D28F78;
+        opacity: 0.3;
+    }
+    
+    .design2 {
+        position: absolute;
+        width: 193px;
+        height: 1079px;
+        left: 147px;
+        top: 1314px;
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 550px;
+        line-height: 1107px;
+        color: #D28F78;
+    }
+    
+    .design3 {
+        position: absolute;
+        width: 1030px;
+        height: 245px;
+        left: 373px;
+        top: 883px;
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1000px;
+        line-height: 2012px;
+        color: #D28F78;
+        opacity: 0.3
+    }
+    
+    .design4 {
+        position: absolute;
+        width: 1030px;
+        height: 331px;
+        left: 474px;
+        top: 1314px;
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 550px;
+        line-height: 1107px;
+        color: #D28F78;
+    }
+    
+    .design5 {
+        position: absolute;
+        width: 1030px;
+        height: 162px;
+        left: 838px;
+        top: 1309px;
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 550px;
+        line-height: 1107px;
+        color: #D28F78;
+    }
+    
+    .design6 {
+        position: absolute;
+        width: 1030px;
+        height: 245px;
+        left: 818px;
+        top: 867px;
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1000px;
+        line-height: 2012px;
+        color: #D28F78;
+        opacity: 0.3;
+    }
+    
+    .design7 {
+        position: absolute;
+        width: 1030px;
+        height: 245px;
+        left: 1049px;
+        top: 901px;
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1000px;
+        line-height: 2012px;
+        color: #D28F78;
+        opacity: 0.3;
+    }
+    
+    .design8 {
+        position: absolute;
+        width: 1030px;
+        height: 245px;
+        left: 1177px;
+        top: 1309px;
+        font-family: 'Baloo Bhaina 2';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 550px;
+        line-height: 1107px;
+        color: #D28F78;
+    }
+    
+    .block1 {
+        position: absolute;
+        width: 289px;
+        height: 824px;
+        left: 84px;
+        top: 1499px;
+        background: #EAE9E4;
+        border: 1px solid rgba(210, 143, 120, 0.34);
+        box-sizing: border-box;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 108px;
+    }
+    
+    .block2 {
+        position: absolute;
+        width: 289px;
+        height: 824px;
+        left: 444px;
+        top: 1499px;
+        background: #EAE9E4;
+        border: 1px solid rgba(210, 143, 120, 0.34);
+        box-sizing: border-box;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 108px;
+    }
+    
+    .block3 {
+        position: absolute;
+        width: 289px;
+        height: 824px;
+        left: 804px;
+        top: 1499px;
+        background: #EAE9E4;
+        border: 1px solid rgba(210, 143, 120, 0.34);
+        box-sizing: border-box;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 108px;
+    }
+    
+    .block4 {
+        position: absolute;
+        width: 289px;
+        height: 824px;
+        left: 1177px;
+        top: 1499px;
+        background: #EAE9E4;
+        border: 1px solid rgba(210, 143, 120, 0.34);
+        box-sizing: border-box;
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 108px;
+    }
+    
+    .image1 {
+        position: absolute;
+        width: 315px;
+        height: 292px;
+        left: 0px;
+        top: 403px;
+        background: url(image.png);
+        mix-blend-mode: difference;
+    }
